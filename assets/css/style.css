@@ -1,0 +1,30 @@
+body{
+  background-color: #737373;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.canvas_wrap{
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.canvas_wrap>*{
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+
+.canvas_wrap>button{
+  font-family: Courier;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  background-color: #fff;
+  color: #000;
+}
